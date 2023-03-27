@@ -13,3 +13,4 @@
 
 rootProject.name = 'Deliberately-Insecure-Product'
 include('app')
+include('service')

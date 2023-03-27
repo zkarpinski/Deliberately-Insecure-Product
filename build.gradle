@@ -1,0 +1,19 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://plugins.gradle.org/m2/"
+        }
+    }
+}
+
+plugins {
+    id('base')
+}
+
+
+allprojects {
+    repositories {
+        mavenCentral()
+    }
+}

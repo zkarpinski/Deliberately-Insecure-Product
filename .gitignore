@@ -3,3 +3,17 @@
 
 # Ignore Gradle build output directory
 build
+bin
+
+Thumbs.db
+.DS_Store
+target/
+out/
+.idea
+*.iml
+*.ipr
+*.iws
+.project
+.settings
+.classpath
+.factorypath
