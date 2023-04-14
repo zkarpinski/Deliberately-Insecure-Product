@@ -2,4 +2,5 @@ micronaut:
   application:
     name: DIPsService
   server:
-    port: 8081
+    port: 8080
+    

@@ -5,6 +5,12 @@ nettyVer = "4.1.0.Final"
 
 [libraries]
 guava = "com.google.guava:guava:31.1-jre"
-snakeyaml = "org.yaml:snakeyaml:1.31"
-commons-text = "org.apache.commons:commons-text:1.9"
 junit = "junit:junit:4.13"
+
+# "Safe" Libraries
+safe-snakeyaml = "org.yaml:snakeyaml:2.0"
+safe-commons-text = "org.apache.commons:commons-text:1.10.0"
+
+# Vulnerable Libraries
+vul-snakeyaml = "org.yaml:snakeyaml:1.31"
+vul-commons-text = "org.apache.commons:commons-text:1.9"

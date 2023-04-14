@@ -1,13 +1,10 @@
 package com.zacharykarpinski.dips;
 
-import java.io.File;
-import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.util.Map;
 
+
 import org.yaml.snakeyaml.Yaml;
-import org.yaml.snakeyaml.constructor.Constructor;
 import org.yaml.snakeyaml.constructor.SafeConstructor;
 
 public class Snakeyaml {

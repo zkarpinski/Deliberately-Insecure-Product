@@ -22,11 +22,11 @@ dependencies {
 
     // This dependency is used by the application.
     implementation libs.guava
-    implementation libs.snakeyaml
+    implementation libs.vul.snakeyaml
 
     constraints {
         //CVE-2022-1471
-        //implementation 'org.yaml:snakeyaml:2.0'
+        //implementation 'org.yaml:snakeyaml:2.0' # or libs.vul.snakeyaml
     }
 }
 
