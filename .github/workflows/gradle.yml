@@ -43,7 +43,7 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --all-sub-projects --print-deps
+          args: --all-sub-projects --print-deps --sarif-file-output=snyk.sarif
       - name: Upload result to GitHub Code Scanning
         # Copied from https://github.com/snyk/actions/tree/master/gradle-jdk11
         uses: github/codeql-action/upload-sarif@v2
