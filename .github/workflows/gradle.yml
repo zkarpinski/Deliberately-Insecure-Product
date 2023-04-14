@@ -15,6 +15,7 @@ on:
 
 permissions:
   contents: read
+  security-events: write   # Required to upload sarif files
 
 jobs:
   build:
