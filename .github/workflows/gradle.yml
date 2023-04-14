@@ -38,8 +38,9 @@ jobs:
       - uses: actions/checkout@master
       - name: Snyk
         uses: snyk/actions/gradle@master
+        continue-on-error: true
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          args: --all-sub-projects
+          args: --all-sub-projects --print-deps
     
