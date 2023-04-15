@@ -9,7 +9,8 @@ Deliberately Insecure Product
 * Use safe_constructor in v1.3x (Change the ```safe``` parameter to true)
 
 
-
+# Project Features:
+* Dependency sharing using gradle [libs.versions.toml](https://docs.gradle.org/current/userguide/platforms.html)
 
 
 
