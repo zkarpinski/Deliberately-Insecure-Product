@@ -37,5 +37,10 @@ java {
     targetCompatibility = JavaVersion.toVersion("11")
 }
 
+//https://github.com/micronaut-projects/micronaut-gradle-plugin/issues/214
+dockerBuild {
+    inputDir = project.projectDir
+}
+
 
 

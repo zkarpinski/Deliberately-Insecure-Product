@@ -19,4 +19,5 @@ allprojects {
 }
 
 subprojects {
+    task allDeps(type: DependencyReportTask) {}
 }
