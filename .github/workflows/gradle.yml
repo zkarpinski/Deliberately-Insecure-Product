@@ -15,7 +15,7 @@ on:
 
 permissions:
   actions: read
-  contents: read write # Write reqiored for Trivy SBOM
+  contents: write # Write reqiored for Trivy SBOM
   security-events: write   # Required to upload sarif files
 
 jobs:
