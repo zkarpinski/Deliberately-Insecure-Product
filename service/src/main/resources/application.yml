@@ -3,4 +3,6 @@ micronaut:
     name: DIPsService
   server:
     port: 8080
-    
+  credentials:
+    user: Admin
+    pass: myS3cureP4ssw0rd!
